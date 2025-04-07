@@ -3,11 +3,11 @@
 
 
 @theme {
-  --color-background: #1c1917;
+  --color-background: #171717;
   --color-foreground: #fafaf9;
-  --color-primary: #615FFF;
-  --color-primary-hover: #4F39F6;
-  --color-primary-light: #7C86FF;
+  --color-primary: #497d00;
+  --color-primary-hover: #3c6300;
+  --color-primary-light: #9ae600;
   --font-mono: "Ubuntu Mono", "monospace"
   --font-sans: "Space Grotesk", "sans-serif";
 }

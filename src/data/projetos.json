@@ -4,7 +4,7 @@
         "title": "Sistema Escolar",
         "description": ["Aplicação web desenvolvida com o objetivo de gerenciar o cadastro de alunos e funcionários de uma instituição de ensino. O sistema foi estruturado como um CRUD completo, com funcionalidades voltadas à organização e controle de dados escolares. Durante o desenvolvimento, trabalhei com um stack moderno — React para a interface, MUI para a estilização, Node.js e Express no backend, Prisma como ORM e MySQL como banco de dados.","Esse projeto me proporcionou uma imersão prática no desenvolvimento fullstack, passando por conceitos como autenticação, arquitetura de APIs REST, consumo de dados no frontend, modelagem de banco de dados e utilização de dados mockados com Faker. Foi uma das experiências mais completas que tive até agora e contribuiu muito para meu crescimento técnico e visão de projeto de ponta a ponta."],
         "technologies": "React, MUI, Express, Prisma, MySQL, Faker",
-        "url": "http://sistema-escolar.localhost"
+        "url": "https://sistema-escolar.brunoazvd.com"
     },
     {
         "id": 2,
@@ -16,7 +16,7 @@
             "Durante o desenvolvimento, aprofundei meus conhecimentos em integração com APIs externas, manipulação de dados dinâmicos e adaptação de conteúdo multilíngue — tudo isso enquanto mantinha o foco em responsividade e usabilidade."
           ],
         "technologies": "React, Tailwind, Express, API TMDB, API JustWatch",
-        "url": "http://tmdb-search.localhost"
+        "url": "https://tmdb-search.brunoazvd.com"
     },
     {
         "id": 3,
@@ -28,7 +28,7 @@
             "Esse projeto foi uma excelente oportunidade para explorar a utilização de WebSockets, entender como lidar com múltiplas conexões simultâneas e desenvolver aplicações colaborativas sem depender de frameworks modernos."
         ],
         "technologies": "HTML, CSS, JavaScript, Express, Socket.io",
-        "url": "http://rplace.localhost"
+        "url": "https://rplace.brunoazvd.com"
     },
     {
         "id": 4,
@@ -40,7 +40,7 @@
             "Esse projeto foi uma ótima oportunidade para explorar manipulação de imagens no servidor, além de implementar uma ferramenta que teve aplicação direta no cotidiano escolar."
         ],
         "technologies": "HTML, TailWind, JavaScript, Express, Fabric.js, Sharp",
-        "url": "http://recortar-imagens.localhost"
+        "url": "https://recortar-imagens.brunoazvd.com"
     },
     {
         "id": 5,
@@ -52,6 +52,6 @@
             "Este projeto foi uma ótima oportunidade para trabalhar com edição de arquivos PDF de forma programática e integrar ferramentas visuais intuitivas com lógica de backend eficiente."
         ],
         "technologies": "React, Tailwind, Express, PdfLib",
-        "url": "http://preencher-atividades.localhost"
+        "url": "https://preencher-atividades.brunoazvd.com"
     }
 ]
