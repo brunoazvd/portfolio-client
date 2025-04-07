@@ -7,7 +7,9 @@ import projetos from '../data/projetos.json'
 
 
 export const Projects = () => {
-  const [currentProject, setCurrentProject] = projetos[0]
+  const [currentProject, setCurrentProject] = useState(projetos[0])
+
+  console.log(projetos)
 
   return (
     <Container>
@@ -20,7 +22,6 @@ export const Projects = () => {
             setCurrentProject={setCurrentProject}
           />
           <ProjectViewer projeto={currentProject} />
-      
     </Container>
   )
 }
