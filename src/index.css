@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import 'tailwindcss';
+
+
+@theme {
+  --color-background: #1c1917;
+  --color-foreground: #fafaf9;
+  --color-primary: #615FFF;
+  --color-primary-hover: #4F39F6;
+  --color-primary-light: #7C86FF;
+  --font-mono: "Ubuntu Mono", "monospace"
+  --font-sans: "Space Grotesk", "sans-serif";
+}
+
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.blink {
+  animation: blink 1.5s steps(1) infinite;
+}

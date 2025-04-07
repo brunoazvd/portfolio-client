@@ -1,0 +1,43 @@
+{
+    "homepage": {
+        "title": "Olá, eu sou o Bruno",
+        "description": [
+            "Sou desenvolvedor web e crio soluções digitais modernas, eficientes e com foco na experiência do usuário.",
+            "Trabalho com uma ampla gama de tecnologias — desde HTML, CSS e JavaScript puro até frameworks e bibliotecas como React, Tailwind, MUI e também WordPress.",
+            "Estou sempre buscando aprender novas ferramentas e aprofundar meus conhecimentos para desenvolver projetos cada vez mais robustos, acessíveis e bem estruturados."
+        ],
+        "about_button": "Mais sobre mim",
+        "projects_button": "Meus projetos"
+    },
+    "about": {
+        "title": "Sobre Mim",
+        "content": [
+            {
+                "subtitle": "Formação",
+                "description": [
+                    "Sou formado em Análise e Desenvolvimento de Sistemas e atualmente curso uma pós-graduação em Ciência de Dados e Inteligência Artificial. Ao longo da minha formação, desenvolvi uma base sólida em lógica de programação, estrutura de dados, banco de dados, redes e fundamentos de engenharia de software. Desde então, tenho focado minha jornada no desenvolvimento web, buscando constantemente atualizar meus conhecimentos por meio de cursos, bootcamps e projetos práticos."
+                ]
+            }, {
+                "subtitle": "Conhecimentos Técnicos",
+                "description": [
+                    "Possuo domínio de tecnologias fundamentais da web, como HTML, CSS e JavaScript, além de experiência com bibliotecas e frameworks modernos, incluindo React, Tailwind CSS, Material UI, Node.js e Express. Também trabalho com controle de versão usando Git e GitHub, e tenho conhecimentos em bancos de dados relacionais com SQL e a ORM Prisma.",
+                    "Tenho familiaridade com WordPress e com conceitos de UI/UX, acessibilidade e design responsivo. Gosto de manter meu código limpo, organizado e alinhado com boas práticas."
+                ]
+            }, {
+                "subtitle": "Experiência e Perfil Profissional",
+                "description": [
+                    "Embora ainda não tenha atuado profissionalmente na área de tecnologia, venho desenvolvendo projetos próprios com o objetivo de aplicar meus conhecimentos e construir um portfólio consistente. Acredito que minha trajetória em outros setores — incluindo minha experiência como auxiliar administrativo e educador em escola — contribuiu para desenvolver habilidades interpessoais, organização, disciplina e proatividade no aprendizado.",
+                    "Sou uma pessoa autônoma, com facilidade para resolver problemas de forma criativa, e tenho prazer em aprender coisas novas. Estou sempre estudando e me desafiando a melhorar, tanto tecnicamente quanto como profissional."
+                ]
+            }, {
+                "subtitle": "Objetivos e Motivação",
+                "description": [
+                    "Meu foco atual é consolidar minha transição para a área de desenvolvimento web. Busco oportunidades que me permitam crescer como dev, colaborar com equipes e colocar em prática tudo o que venho aprendendo. Estou aberto a novas tecnologias e desafios, e acredito que minha dedicação e vontade de evoluir serão grandes aliados na construção de uma carreira sólida na área."
+                ]
+            }
+        ]
+    },
+    "projects": {
+        "title": "Meus Projetos"
+    }
+}

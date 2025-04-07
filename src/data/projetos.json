@@ -1,0 +1,58 @@
+[
+    "recortar-imagens,preencher-atividades",
+    {
+        "id": 1,
+        "title": "Sistema Escolar",
+        "description": ["Aplicação web desenvolvida com o objetivo de gerenciar o cadastro de alunos e funcionários de uma instituição de ensino. O sistema foi estruturado como um CRUD completo, com funcionalidades voltadas à organização e controle de dados escolares. Durante o desenvolvimento, trabalhei com um stack moderno — React para a interface, MUI para a estilização, Node.js e Express no backend, Prisma como ORM e MySQL como banco de dados.","Esse projeto me proporcionou uma imersão prática no desenvolvimento fullstack, passando por conceitos como autenticação, arquitetura de APIs REST, consumo de dados no frontend, modelagem de banco de dados e utilização de dados mockados com Faker. Foi uma das experiências mais completas que tive até agora e contribuiu muito para meu crescimento técnico e visão de projeto de ponta a ponta."],
+        "technologies": "React, MUI, Express, Prisma, MySQL, Faker",
+        "url": "http://sistema-escolar.localhost"
+    },
+    {
+        "id": 2,
+        "title": "Pesquisa de Filmes - TMDB",
+        "description": [
+            "Projeto desenvolvido para oferecer uma experiência completa de busca e descoberta de filmes, utilizando como base as APIs públicas da TMDB (The Movie Database) e JustWatch.",
+            "O usuário pode pesquisar por filmes, séries ou atores, visualizar detalhes sobre as obras, como sinopse, nota, elenco e também obter informações sobre onde assistir legalmente.",
+            "Além de uma interface moderna desenvolvida com React e estilizada com Tailwind, este projeto se destaca por ser o primeiro em que implementei suporte a múltiplos idiomas, tanto na interface quanto no consumo de dados das APIs, permitindo uma navegação fluida em português e inglês.",
+            "Durante o desenvolvimento, aprofundei meus conhecimentos em integração com APIs externas, manipulação de dados dinâmicos e adaptação de conteúdo multilíngue — tudo isso enquanto mantinha o foco em responsividade e usabilidade."
+          ],
+        "technologies": "React, Tailwind, Express, API TMDB, API JustWatch",
+        "url": "http://tmdb-search.localhost"
+    },
+    {
+        "id": 3,
+        "title": "r/place Clone",
+        "description": [
+            "Inspirado no evento colaborativo r/place, promovido pelo Reddit, este projeto simula um canvas digital onde múltiplos usuários podem pintar pixels em tempo real, criando juntos artes no estilo pixel art.",
+            "A interface foi construída com HTML, CSS e JavaScript puro, mantendo a estrutura leve e acessível. O backend utiliza Node.js com Express e Socket.io para gerenciar a comunicação em tempo real entre os usuários.",
+            "Cada modificação feita por um usuário no canvas é imediatamente transmitida para todos os outros conectados, permitindo uma interação coletiva fluida e dinâmica.",
+            "Esse projeto foi uma excelente oportunidade para explorar a utilização de WebSockets, entender como lidar com múltiplas conexões simultâneas e desenvolver aplicações colaborativas sem depender de frameworks modernos."
+        ],
+        "technologies": "HTML, CSS, JavaScript, Express, Socket.io",
+        "url": "http://rplace.localhost"
+    },
+    {
+        "id": 4,
+        "title": "Recortar Imagens",
+        "description": [
+            "Este projeto foi criado para atender uma demanda prática da escola onde eu trabalhava: recortar imagens grandes em pedaços no formato A4, como uma impressão em modo pôster. As professoras frequentemente precisavam disso para criar murais, quadros educativos e outras atividades pedagógicas.",
+            "A aplicação permite ao usuário fazer upload de uma imagem e visualizar como ela será dividida. Utilizei a biblioteca Fabric.js para manipulação gráfica no frontend e a biblioteca Sharp no backend para realizar o corte preciso da imagem.",
+            "O layout foi construído com HTML, Tailwind e JavaScript, garantindo uma experiência visual simples e funcional. O backend em Express gerencia os uploads e processa os arquivos para exportação em .pdf ou .zip",
+            "Esse projeto foi uma ótima oportunidade para explorar manipulação de imagens no servidor, além de implementar uma ferramenta que teve aplicação direta no cotidiano escolar."
+        ],
+        "technologies": "HTML, TailWind, JavaScript, Express, Fabric.js, Sharp",
+        "url": "http://recortar-imagens.localhost"
+    },
+    {
+        "id": 5,
+        "title": "Preencher Atividades",
+        "description": [
+            "Este projeto foi desenvolvido para agilizar o processo de adaptação de atividades escolares encontradas na internet, inserindo automaticamente o cabeçalho padronizado da escola. Foi uma solução prática para atender à rotina dos professores, que frequentemente precisavam adaptar conteúdos externos para uso em sala de aula.",
+            "A aplicação permite que o usuário envie uma imagem de uma atividade, selecione a parte que deseja manter (eliminando cabeçalhos e molduras de outras instituições), e então o sistema gera um novo PDF com a identidade visual da escola.",
+            "No frontend utilizei React e Tailwind para criar uma interface clara e funcional. O backend, feito com Express, é responsável por manipular o arquivo e gerar o PDF final, utilizando a biblioteca PdfLib.",
+            "Este projeto foi uma ótima oportunidade para trabalhar com edição de arquivos PDF de forma programática e integrar ferramentas visuais intuitivas com lógica de backend eficiente."
+        ],
+        "technologies": "React, Tailwind, Express, PdfLib",
+        "url": "http://preencher-atividades.localhost"
+    }
+]
