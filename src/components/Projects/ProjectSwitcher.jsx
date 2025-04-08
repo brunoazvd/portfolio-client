@@ -2,7 +2,7 @@ import { Chip } from "../Chip.jsx"
 
 export const ProjectSwitcher = ({projetos, setCurrentProject, currentProject}) =>  {
   return (
-    <div className="flex flex-row gap-4 align-center justify-center mb-6">
+    <div className="flex flex-row gap-4 align-center justify-center mb-6 flex-wrap">
       {projetos.map((proj, index) => (
         <Chip 
           key={index}

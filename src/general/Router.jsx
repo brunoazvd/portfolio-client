@@ -7,6 +7,7 @@ import { Home } from "../pages/Home.jsx";
 import { NotFound } from "../pages/NotFound.jsx";
 import { About } from "../pages/About.jsx";
 import { Projects } from "../pages/Projects.jsx";
+import { Contact } from "../pages/Contact.jsx";	
 
 export const Router = () => (
   <Routes>
@@ -31,6 +32,14 @@ export const Router = () => (
       element={
         <Layout>
           <Projects />
+        </Layout>
+      }
+    />
+    <Route
+      path={RoutePaths.CONTACT}
+      element={
+        <Layout>
+          <Contact />
         </Layout>
       }
     />

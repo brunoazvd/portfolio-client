@@ -3,4 +3,5 @@ export const RoutePaths = {
     NOT_FOUND: '*',
     ABOUT: '/sobre-mim',
     PROJECTS: '/projetos',
+    CONTACT: '/contato',
   };

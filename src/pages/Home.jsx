@@ -7,11 +7,11 @@ import { RoutePaths } from "../data/RoutePaths.jsx";
 
 export const Home = () => (
   <Container>
-    <div className="flex w-full flex-row gap-8">
-      <div className="w-1/3">
-        <img src="./bruno-2.jpg" alt="imagem do desenvolvedor" className="rounded-md"/>
+    <div className="flex w-full flex-col md:flex-row gap-8">
+      <div className="w-full md:w-1/3">
+        <img src="./images/bruno-2.jpg" alt="imagem do desenvolvedor" className="rounded-md"/>
       </div>
-      <div className="w-2/3 font-sans text-right">
+      <div className="w-full md:w-2/3 font-sans text-center md:text-right">
         <h1 className="text-4xl mb-4 font-bold">
           {ptBR.homepage.title}
         </h1>
@@ -20,7 +20,7 @@ export const Home = () => (
             <p key={index}>{text}</p>
           )}
         </div>
-        <div className="ml-auto flex w-fit flex-row gap-8">
+        <div className="mx-auto md:ml-auto md:mr-0 flex w-fit flex-row gap-8 ">
           <ButtonLink 
             destinationPath={RoutePaths.ABOUT}
             text={ptBR.homepage.about_button}
