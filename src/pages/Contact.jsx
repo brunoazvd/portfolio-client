@@ -18,7 +18,7 @@ export const Contact = () => {
                 <img src="./images/instagram.svg" alt="instagram logo" className="w-10 block" />
                 <p  className="text-primary">@azvd.bruno</p>
             </a>
-            <a className="w-fit mx-auto cursor-pointer flex flex-row place-items-center gap-2" href="mailto:seuemail@gmail.com" target="_blank">
+            <a className="w-fit mx-auto cursor-pointer flex flex-row place-items-center gap-2" href="mailto:brunoazvd@protonmail.com" target="_blank">
             <img src="./images/email.svg" alt="email logo" className="w-10 block" />
                 <p  className="text-primary">brunoazvd@protonmail.com</p>
             </a>
